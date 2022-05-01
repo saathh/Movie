@@ -1,0 +1,16 @@
+CREATE TABLE MOVIE
+('Mov Name' varchar(30),'Actor' varchar(30),'Actress' varchar(30),'Director' varchar(30),'yor' DATE);
+INSERT into MOVIE 
+VALUES ('After','Fiennes Tiffin','Josephine Langford',' Jenny Gage','2019-04-08'),
+('Work it','Jordan Fishe','Sabrina Carpenter',' Laura Terruso','2020-07-07'),
+('Avengers: Endgame','Robert Downey','Scarlett Johansson',' Anthony Russo','2019-04-26');
+
+
+
+
+SELECT Actor from MOVIE;
+output:
+Fiennes Tiffin
+Jordan Fishe
+Robert Downey
+
